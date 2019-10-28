@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Hello, WebVR! • A-Frame</title>
+    <meta name="description" content="Hello, WebVR! • A-Frame">
+    <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+    <script src="https://cdn.rawgit.com/zcanter/aframe-gradient-sky/master/dist/gradientsky.min.js"></script>
+</head>
+
+<body>
+    <a-scene fog="density: 0.1; type: exponential; color: #ffffff">
+        <a-assets>
+            <a-asset-item id="tree-obj" src="assets/tree.obj"></a-asset-item>
+            <a-asset-item id="tree-mtl" src="assets/tree.mtl"></a-asset-item>
+        </a-assets>
+
+        <a-sky material="shader: gradient; topColor: 0 63 189; bottomColor: 194 215 255;"></a-sky>
+        <a-circle radius="20" rotation="-90 0 0" color="#734a1d" material="depthTest: false; shader: flat;"></a-circle>
+
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="-4.531423336818285 0 3.9843213773481976"
+            rotation="0 31.657202835074536 0" scale="0.8051674388903602 0.8051674388903602 0.8051674388903602">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="-9.519040157502959 0 8.369757661619225"
+            rotation="0 18.72460628029372 0" scale="1.0210604775035992 1.0210604775035992 1.0210604775035992">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="-13.954066917598654 0 12.269320914909944"
+            rotation="0 36.531978512970475 0" scale="0.638357100320323 0.638357100320323 0.638357100320323"></a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="-6.554576539418292 0 -0.8457004250668847"
+            rotation="0 37.838549772192245 0" scale="0.5307529932390677 0.5307529932390677 0.5307529932390677">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="-11.94578911415522 0 -1.541298491343427"
+            rotation="0 14.912832378504472 0" scale="0.7243040144496845 0.7243040144496845 0.7243040144496845">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="-17.98131900459637 0 -2.3200292244661136"
+            rotation="0 8.402783373828504 0" scale="1.1260974604447778 1.1260974604447778 1.1260974604447778">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="-3.633745509601191 0 -5.392913278146234"
+            rotation="0 70.56776303716681 0" scale="0.675859422298737 0.675859422298737 0.675859422298737"></a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="-7.092343562596958 0 -10.525886766380049"
+            rotation="0 74.88403296615006 0" scale="0.5200773855180154 0.5200773855180154 0.5200773855180154">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="-10.272637046511555 0 -15.245822962376156"
+            rotation="0 62.14277396038797 0" scale="0.5668370374032399 0.5668370374032399 0.5668370374032399">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="1.7637665309614652 0 -6.7212261160123"
+            rotation="0 29.51936359489549 0" scale="0.9550769655895702 0.9550769655895702 0.9550769655895702">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="3.1015137971419247 0 -11.81901071745545"
+            rotation="0 43.67146175371681 0" scale="0.9433520245142822 0.9433520245142822 0.9433520245142822">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="4.633168397004428 0 -17.655722502486565"
+            rotation="0 69.4395156607022 0" scale="0.7624347610957998 0.7624347610957998 0.7624347610957998"></a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="5.492030254220004 0 -2.752620849823076"
+            rotation="0 8.586734946986592 0" scale="0.6351883043526043 0.6351883043526043 0.6351883043526043">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="11.21211465293194 0 -5.619543071626889"
+            rotation="0 15.781393528020986 0" scale="0.9579340970731733 0.9579340970731733 0.9579340970731733">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="16.65534910761 0 -8.347707330902283"
+            rotation="0 86.74634794129265 0" scale="0.5693602602477721 0.5693602602477721 0.5693602602477721">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="6.240782731832039 0 2.5285142664746303"
+            rotation="0 70.3092112931342 0" scale="1.178824005478806 1.178824005478806 1.178824005478806"></a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="11.861163149683408 0 4.805666457187092"
+            rotation="0 67.97266051977377 0" scale="1.0380532872003112 1.0380532872003112 1.0380532872003112">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="17.38827161011521 0 7.045028600539878"
+            rotation="0 70.24729742896898 0" scale="0.5658543604156029 0.5658543604156029 0.5658543604156029">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="2.2024156755255104 0 6.300312929219999"
+            rotation="0 14.757819692802377 0" scale="1.0865126348682992 1.0865126348682992 1.0865126348682992">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="4.026427431705996 0 11.518149406782829"
+            rotation="0 58.43790156952411 0" scale="1.1589093222377964 1.1589093222377964 1.1589093222377964">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="6.0141537840720725 0 17.2043140017452"
+            rotation="0 27.67622641904404 0" scale="0.6882625299294522 0.6882625299294522 0.6882625299294522">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="-3.155554231090234 0 5.598435794657302"
+            rotation="0 14.864633055817912 0" scale="0.9709242871011974 0.9709242871011974 0.9709242871011974">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="-6.153288677505781 0 10.916875155432177"
+            rotation="0 6.721063453691627 0" scale="0.7016475073553704 0.7016475073553704 0.7016475073553704">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="-9.194500729398495 0 16.3124504374887"
+            rotation="0 62.787684145238224 0" scale="0.8904815179339387 0.8904815179339387 0.8904815179339387">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="-6.809429346044898 0 1.436992843581264"
+            rotation="0 58.475106175629804 0" scale="0.5891064557370034 0.5891064557370034 0.5891064557370034">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="-11.90725800766181 0 2.512786853956279"
+            rotation="0 53.02827375743632 0" scale="1.1233559540415174 1.1233559540415174 1.1233559540415174">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="-18.127538674845347 0 3.825451741066292"
+            rotation="0 63.86732790749285 0" scale="0.7363145677194375 0.7363145677194375 0.7363145677194375">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="-5.424477850089905 0 -4.052078522832403"
+            rotation="0 32.962946350437655 0" scale="0.7750465144449635 0.7750465144449635 0.7750465144449635">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="-9.909592995926202 0 -7.402454219282592"
+            rotation="0 32.85648685762905 0" scale="1.1219692823109944 1.1219692823109944 1.1219692823109944">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="-14.692122180366615 0 -10.974997849960147"
+            rotation="0 79.79239387158094 0" scale="1.149601306171331 1.149601306171331 1.149601306171331"></a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="-0.5303343764259254 0 -6.64314937297281"
+            rotation="0 32.82492478791325 0" scale="0.7260050659675619 0.7260050659675619 0.7260050659675619">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="-0.9836029488534241 0 -12.320946186754501"
+            rotation="0 59.4236820755186 0" scale="0.7169991141097589 0.7169991141097589 0.7169991141097589"></a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="-1.504824713786189 0 -18.84994787853246"
+            rotation="0 3.0560669561993814 0" scale="0.6616640387860965 0.6616640387860965 0.6616640387860965">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="4.25179649109201 0 -4.385732681656691"
+            rotation="0 83.25606764685276 0" scale="0.7497669702914237 0.7497669702914237 0.7497669702914237">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="8.966905871282535 0 -9.249373109794035"
+            rotation="0 48.8240802576902 0" scale="1.0939360751920506 1.0939360751920506 1.0939360751920506"></a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="13.05237119178618 0 -13.463535008993015"
+            rotation="0 2.2608669709734097 0" scale="0.5468055278450858 0.5468055278450858 0.5468055278450858">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="6.380431477629334 0 0.31067033664852445"
+            rotation="0 53.89557278617553 0" scale="0.7847395355742417 0.7847395355742417 0.7847395355742417">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="12.346054282944825 0 0.6011431756318361"
+            rotation="0 53.526966778247356 0" scale="0.8095909332553843 0.8095909332553843 0.8095909332553843">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="18.52287947244557 0 0.9018996946493046"
+            rotation="0 4.565104217044555 0" scale="0.9559280898821232 0.9559280898821232 0.9559280898821232">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="4.335534353999482 0 5.443404502948422"
+            rotation="0 33.45481582436202 0" scale="1.1856251880241535 1.1856251880241535 1.1856251880241535">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="7.818003076897995 0 9.815757338791055"
+            rotation="0 16.82319920920967 0" scale="0.5739596001887265 0.5739596001887265 0.5739596001887265">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="11.308067820023984 0 14.197647225279498"
+            rotation="0 1.2418661462568437 0" scale="0.5795961034549045 0.5795961034549045 0.5795961034549045">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="-1.135044625749025 0 6.346737684939996"
+            rotation="0 0.567978613176372 0" scale="1.1258568855975941 1.1258568855975941 1.1258568855975941">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="-2.273969828262322 0 12.715174078662349"
+            rotation="0 7.99654994385525 0" scale="1.1207582747975013 1.1207582747975013 1.1207582747975013"></a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="-3.2127455290914955 0 17.964450611932246"
+            rotation="0 77.3332362137019 0" scale="0.8972041867530818 0.8972041867530818 0.8972041867530818"></a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="-5.74213363972649 0 3.475436911543053"
+            rotation="0 82.33349448473527 0" scale="1.1318161792514112 1.1318161792514112 1.1318161792514112">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="-10.82608563988303 0 6.552508179201459"
+            rotation="0 75.11995830231734 0" scale="0.9259794592512625 0.9259794592512625 0.9259794592512625">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="-15.458313886072684 0 9.356172816701378"
+            rotation="0 26.237196625603012 0" scale="0.9008176009529767 0.9008176009529767 0.9008176009529767">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="-6.581143547610779 0 -2.073949332695421"
+            rotation="0 17.386036741687573 0" scale="0.9417896248844526 0.9417896248844526 0.9417896248844526">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="-12.24936145824062 0 -3.8602037531130917"
+            rotation="0 81.03747411098824 0" scale="0.777183962950054 0.777183962950054 0.777183962950054"></a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="-17.89218654606588 0 -5.638456003766523"
+            rotation="0 72.92953899858017 0" scale="1.073703901417371 1.073703901417371 1.073703901417371"></a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="-2.7448654396304457 0 -6.213876203895813"
+            rotation="0 80.06773621760783 0" scale="1.0735429380835866 1.0735429380835866 1.0735429380835866">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="-5.055524429916498 0 -11.444787966546565"
+            rotation="0 78.06176431409338 0" scale="0.7750937969608229 0.7750937969608229 0.7750937969608229">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="-7.505220658076794 0 -16.99045475194207"
+            rotation="0 31.311351623447226 0" scale="1.1207318526469097 1.1207318526469097 1.1207318526469097">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="2.7916104642972703 0 -6.0295977610000895"
+            rotation="0 41.09767888871046 0" scale="1.0834232160172954 1.0834232160172954 1.0834232160172954">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="5.371212325347756 0 -11.601278267498353"
+            rotation="0 63.95284865079943 0" scale="0.9492737401067899 0.9492737401067899 0.9492737401067899">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="7.7372883130818915 0 -16.711764368785094"
+            rotation="0 14.97009701611901 0" scale="0.7278679693707085 0.7278679693707085 0.7278679693707085">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="6.332777684707209 0 -1.8735250342118939"
+            rotation="0 69.42574976220081 0" scale="1.0929278527623327 1.0929278527623327 1.0929278527623327">
+        </a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="11.842432732534924 0 -3.503532777402456"
+            rotation="0 16.361723460943463 0" scale="0.589678300824598 0.589678300824598 0.589678300824598"></a-entity>
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="17.38371164047942 0 -5.142896303561727"
+            rotation="0 29.56995470935411 0" scale="1.139771515409619 1.139771515409619 1.139771515409619"></a-entity>
+
+        <a-plane position="0 1.75 -2" rotation="0 0 0" width="5" height="2.5" color="#ffffff"
+            material="transparent: true; opacity: 0.6" shadow></a-plane>
+    </a-scene>
+</body>
+
+</html>
